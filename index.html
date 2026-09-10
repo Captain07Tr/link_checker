@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Link Checker — Tehlikeli bağlantıları tıklamadan tespit edin</title>
+  <meta name="description" content="Link Checker ile şüpheli linkleri güvenle tarayın. Güvenlik skoru, site özeti ve canlı önizleme." />
+  <link rel="icon" href="images/link_checker_icon.jpeg" type="image/jpeg" />
+  <link rel="apple-touch-icon" href="images/link_checker_icon.jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="glow glow-a" aria-hidden="true"></div>
+  <div class="glow glow-b" aria-hidden="true"></div>
+
+  <header class="top">
+    <a class="brand" href="index.html">
+      <img src="images/link_checker_icon.jpeg" alt="" width="36" height="36" />
+      <span>Link Checker</span>
+    </a>
+    <nav>
+      <a href="#nasil">Nasıl çalışır</a>
+      <a href="privacy.html">Gizlilik</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="brand-hero">Link Checker</p>
+        <h1>Bağlantıyı tıklamadan tarayın.</h1>
+        <p class="lead">
+          Şüpheli linkleri yapıştırın, güvenlik skorunu görün ve site içeriğini
+          güvenli önizlemede inceleyin — tarayıcıya gitmeden.
+        </p>
+        <div class="cta-row">
+          <a class="btn-gradient" href="#nasil">Uygulamayı keşfet</a>
+          <a class="btn-ghost" href="privacy.html">Gizlilik Politikası</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img
+          src="images/link_checker_giris.jpeg"
+          alt="Link Checker uygulama giriş ekranı"
+          class="phone-shot"
+        />
+      </div>
+    </section>
+
+    <section id="nasil" class="steps">
+      <header class="section-head reveal">
+        <h2>Nasıl çalışır?</h2>
+        <p>Üç adımda güvenli analiz.</p>
+      </header>
+
+      <article class="step">
+        <div class="step-text reveal from-left">
+          <span class="step-num">01</span>
+          <h3>Linki yapıştır, analizi başlat</h3>
+          <p>
+            Panodan bağlantıyı yapıştırın veya yazın. <strong>DETAYLI ANALİZ</strong>
+            ile tarama başlar — tıklamadan önce riski görün.
+          </p>
+        </div>
+        <div class="step-media reveal from-right">
+          <img src="images/link_checker_link.jpeg" alt="Link yapıştırma ve analiz ekranı" />
+        </div>
+      </article>
+
+      <article class="step reverse">
+        <div class="step-text reveal from-right">
+          <span class="step-num">02</span>
+          <h3>Güvenlik skorunu ve kararı görün</h3>
+          <p>
+            SSL, domain, yönlendirme ve sayfa taramasına göre skor çıkar.
+            Sonuç <strong>GÜVENLİ</strong>, <strong>ŞÜPHELİ</strong> veya
+            <strong>TEHLİKELİ</strong> olarak net gösterilir.
+          </p>
+        </div>
+        <div class="step-media reveal from-left">
+          <img src="images/link_sonucu.jpeg" alt="Analiz sonucu ve güvenlik skoru ekranı" />
+        </div>
+      </article>
+
+      <article class="step">
+        <div class="step-text reveal from-left">
+          <span class="step-num">03</span>
+          <h3>Canlı önizleme ile kontrol edin</h3>
+          <p>
+            Siteyi uygulamadan çıkmadan canlı önizleyin. Tehlikeli sayfalarda
+            önizleme uyarı ile açılır — bilinçli karar verin.
+          </p>
+        </div>
+        <div class="step-media reveal from-right">
+          <img src="images/canli_on_izleme.jpeg" alt="Canlı site önizleme ekranı" />
+        </div>
+      </article>
+    </section>
+
+    <section class="closing reveal">
+      <p class="brand-hero small">Link Checker</p>
+      <h2>Şüpheli linklere karşı bir kalkan.</h2>
+      <p class="lead center">
+        Google Play’de Link Checker ile bağlantılarınızı güvenle kontrol edin.
+      </p>
+      <a class="btn-gradient" href="privacy.html">Gizlilik Politikası</a>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-brand">
+      <img src="images/link_checker_icon.jpeg" alt="" width="28" height="28" />
+      <span>Link Checker</span>
+    </div>
+    <a href="privacy.html">Gizlilik Politikası</a>
+    <span>© <span id="y"></span></span>
+  </footer>
+
+  <script src="animate.js"></script>
+</body>
+</html>
